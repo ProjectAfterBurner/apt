@@ -1,1 +1,1 @@
-deb https://projectafterburner.github.io/apt/rpi bullseye main
+deb [signed-by=/usr/share/keyrings/projectafterburner-rpi-archive-keyring.gpg] https://projectafterburner.github.io/apt/rpi bullseye main
