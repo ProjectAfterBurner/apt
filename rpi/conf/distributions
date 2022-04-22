@@ -1,0 +1,8 @@
+Origin: project-afterburner
+Label: Project Afterburner Packages
+Codename: bullseye
+Architectures: armhf arm64
+Components: main
+Description: Project Afterburner Packages
+SignWith: yes
+Pull: bullseye

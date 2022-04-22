@@ -1,0 +1,19 @@
+Package: webcord
+Version: 3.1.3
+Architecture: arm64
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Installed-Size: 232802
+Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
+Homepage: https://github.com/SpacingBat3/WebCord#readme
+Priority: optional
+Section: web
+Filename: pool/main/w/webcord/webcord_3.1.3_arm64.deb
+Size: 73690172
+SHA256: 4ca0edf478dc6142fe7c003a9f47612d59f8607f2db4afd6a2c2aeb992308557
+SHA1: 32b84b590e815c197bf1d3558fa2d59f6b6666af
+MD5sum: d283b39c80c7731f7a6784d39cc8fd5b
+Description: A Discord and Fosscord client made with the Electron API.
+ A Discord and Fosscord client made with the Electron API.
+
