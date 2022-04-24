@@ -17,6 +17,41 @@ Description: Linux Userspace x86 Emulator with a twist.
  on non-x86 Linux, like ARM
  (host system needs to be 32bit little-endian).
 
+Package: minecraft-pi-reborn-client
+Version: 2.3.5-1
+Architecture: armhf
+Maintainer: Nooz <zhengm58@gmail.com>
+Priority: optional
+Section: games
+Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.5-1_armhf.deb
+Size: 6081816
+SHA256: 24815b4481b74ff8c121b5a58638c2cb0395f9bb52140065b7bc63ece4c8273f
+SHA1: 61230883bc9f56ba3f0fcf4d9bee8a55411c196a
+MD5sum: b5fe6e4897dc6d683f4177124aef10a1
+Description: Community mod of MCPI-Reborn
+Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
+Depends: libc6, libstdc++6, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
+
+Package: planet-launcher
+Version: 1.1.0
+Architecture: all
+Maintainer: mcpiscript <mcpiscript@gmail.com>
+Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia, gcc
+Replaces: mcpil, mcpil-r, gmcpil, jmcpil
+Recommends: python3-pyqtdarkmode, python3-minecraftpi
+Provides: pi-nbt
+Homepage: https://github.com/mcpiscript/Planet
+Priority: optional
+Section: games
+Filename: pool/main/p/planet-launcher/planet-launcher_1.1.0_all.deb
+Size: 70776
+SHA256: 516082ea0e3f2cf1df34f098f35c3a0c68413cb6f63f32ce79927e8727299871
+SHA1: 418a3692e2444b867086aa3ad118ff982685eec6
+MD5sum: d43ce1784d38356fe9a05d585ecaf1d0
+Description: A better launcher for Minecraft: Pi Edition
+ A better launcher.
+ This launcher requires you to download an AppImage file from the official Jenkins.
+
 Package: retroarch
 Version: 1.10.3-r202204221651+9b282aa742-157~ubuntu18.04.1
 Architecture: armhf

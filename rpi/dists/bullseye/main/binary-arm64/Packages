@@ -35,6 +35,41 @@ MD5sum: 44f96d428b38515a2b6b19d94b545106
 Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
  Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
 
+Package: minecraft-pi-reborn-client
+Version: 2.3.5-1
+Architecture: arm64
+Maintainer: Nooz <zhengm58@gmail.com>
+Priority: optional
+Section: games
+Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.5-1_arm64.deb
+Size: 6105520
+SHA256: d0406428e8a9bc1241f03c58f1a08ac4866f7c801184acf32125ec5dbea1c444
+SHA1: 55aacc5419dbe921f30a167e0d2b347783094d2e
+MD5sum: 70b4db346225f147c02ed5f723dbc16b
+Description: Community mod of MCPI-Reborn
+Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
+Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
+
+Package: planet-launcher
+Version: 1.1.0
+Architecture: all
+Maintainer: mcpiscript <mcpiscript@gmail.com>
+Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia, gcc
+Replaces: mcpil, mcpil-r, gmcpil, jmcpil
+Recommends: python3-pyqtdarkmode, python3-minecraftpi
+Provides: pi-nbt
+Homepage: https://github.com/mcpiscript/Planet
+Priority: optional
+Section: games
+Filename: pool/main/p/planet-launcher/planet-launcher_1.1.0_all.deb
+Size: 70776
+SHA256: 516082ea0e3f2cf1df34f098f35c3a0c68413cb6f63f32ce79927e8727299871
+SHA1: 418a3692e2444b867086aa3ad118ff982685eec6
+MD5sum: d43ce1784d38356fe9a05d585ecaf1d0
+Description: A better launcher for Minecraft: Pi Edition
+ A better launcher.
+ This launcher requires you to download an AppImage file from the official Jenkins.
+
 Package: retroarch
 Version: 1.10.3-r202204221651+9b282aa742-157~ubuntu18.04.1
 Architecture: arm64
