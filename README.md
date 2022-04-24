@@ -1,6 +1,6 @@
 # Project Afterburner Package Repository
 
-### Raspberry Pi - Bullseye
+### Raspberry Pi
 To install:
 ```
 sudo wget https://projectafterburner.github.io/apt/rpi/projectafterburner-rpi.list -O /etc/apt/sources.list.d/projectafterburner-rpi.list
