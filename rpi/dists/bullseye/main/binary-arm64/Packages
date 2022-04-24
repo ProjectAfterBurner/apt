@@ -1,3 +1,64 @@
+Package: armcord
+Version: 3.0.5
+License: OSL-3.0
+Vendor: smartfrigde@gmail.com
+Architecture: arm64
+Maintainer: smartfrigde@gmail.com
+Installed-Size: 217556
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Homepage: https://github.com/armcord/armcord#readme
+Priority: optional
+Section: default
+Filename: pool/main/a/armcord/armcord_3.0.5_arm64.deb
+Size: 57104458
+SHA256: ae1268cad1d2dfbc0175dd93c3ac9b919c634dc2042e05edb8f73332dae4bac0
+SHA1: d8ce4251d6bc4eca84b9e05f9bcbbe687c48b618
+MD5sum: 737cddf737663f494c416b0a9825f2bc
+Description: 
+  ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+
+Package: box64
+Installed-Size: 10160
+Maintainer: root@box64-builder
+Architecture: arm64
+Version: 0.1.9+20220424.13bc7d17-1
+Provides: box64
+Conflicts: qemu-user-static
+Priority: extra
+Section: checkinstall
+Filename: pool/main/b/box64/box64_0.1.9+20220424.13bc7d17-1_arm64.deb
+Size: 1923588
+SHA256: 72f32dd102277a3e176f91bd9f429b056b8412aa651dd6a436970a4f0306daf9
+SHA1: 2806bcacf7baecbb67d0f8afb8a96a466a0675dd
+MD5sum: 44f96d428b38515a2b6b19d94b545106
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+
+Package: retroarch
+Version: 1.10.3-r202204221651+9b282aa742-157~ubuntu18.04.1
+Architecture: arm64
+Maintainer: Libretro Team <libretro@gmail.com>
+Installed-Size: 17850
+Depends: libx11-dev, libxrandr-dev, fonts-dejavu-core, libqt5waylandclient5, libvulkan1, libasound2 (>= 1.0.18), libass9 (>= 1:0.13.6), libavcodec57 (>= 7:3.4.8) | libavcodec-extra57 (>= 7:3.4.8), libavformat57 (>= 7:3.4.8), libavutil55 (>= 7:3.4.8), libc6 (>= 2.27), libcaca0 (>= 0.99.beta17-1), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.62), libegl1, libflac8 (>= 1.3.0), libfontconfig1 (>= 2.12), libfreetype6 (>= 2.2.1), libgbm1 (>= 8.1~0), libgcc1 (>= 1:4.2), libgl1, libgles2, libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libmbedcrypto1 (>= 2.7), libmbedtls10 (>= 2.0), libmbedx509-0 (>= 2.0), libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libqt5core5a (>= 5.6.0~beta), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.8.0), libsdl2-2.0-0 (>= 2.0.8), libsixel1, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libswresample2 (>= 7:3.4.8), libswscale4 (>= 7:3.4.8), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.16), libv4l-0 (>= 0.5.0), libwayland-client0 (>= 1.12), libwayland-cursor0 (>= 1.12), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1, libxext6, libxinerama1, libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.2.99.2), libxv1, libxxf86vm1, zlib1g (>= 1:1.1.4)
+Provides: retroarch-dbg
+Homepage: https://www.libretro.com/
+Priority: optional
+Section: games
+Filename: pool/main/r/retroarch/retroarch_1.10.3-r202204221651+9b282aa742-157~ubuntu18.04.1_arm64.deb
+Size: 3095392
+SHA256: 62c6f2a0e1067d46c6c2c149ed88556d95c390054f42ef8ec4f80ee9d1e561a0
+SHA1: 13580003b5815c50134dbf2e319fc9c0a0f6a0d3
+MD5sum: 376c4ef87934e6963943ef7e9c780774
+Description: Simple frontend for the libretro library
+ RetroArch is an open source, multi-platform frontend for the libretro API. It
+ can be used as a modular multi-emulator system, game engine, media player and
+ 3-D technical demonstration. These features are available through libretro
+ cores.
+ .
+ It provides four built-in graphical user interface flavors: RGUI, XMB, Ozone
+ and GLUI.
+
 Package: webcord
 Version: 3.1.3
 Architecture: arm64
