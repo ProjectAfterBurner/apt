@@ -33,21 +33,21 @@ Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Depends: libc6, libstdc++6, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
 
 Package: planet-launcher
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: mcpiscript <mcpiscript@gmail.com>
 Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia, gcc
 Replaces: mcpil, mcpil-r, gmcpil, jmcpil
 Recommends: python3-pyqtdarkmode, python3-minecraftpi
-Provides: pi-nbt
+Provides: pi-nbt, mcpiedit, mcpit, editpi
 Homepage: https://github.com/mcpiscript/Planet
 Priority: optional
 Section: games
-Filename: pool/main/p/planet-launcher/planet-launcher_1.1.0_all.deb
-Size: 70776
-SHA256: 516082ea0e3f2cf1df34f098f35c3a0c68413cb6f63f32ce79927e8727299871
-SHA1: 418a3692e2444b867086aa3ad118ff982685eec6
-MD5sum: d43ce1784d38356fe9a05d585ecaf1d0
+Filename: pool/main/p/planet-launcher/planet-launcher_1.2.0_all.deb
+Size: 71900
+SHA256: 8f6732392a2e01572fd78d1bd00c4c531f4f52662ca78e7f8b3a43be4727dfab
+SHA1: b063e7a17ded63d978cfa9b993be044b3c97c549
+MD5sum: df705ce75b12ddc9782ab57f86c94ce6
 Description: A better launcher for Minecraft: Pi Edition
  A better launcher.
  This launcher requires you to download an AppImage file from the official Jenkins.
