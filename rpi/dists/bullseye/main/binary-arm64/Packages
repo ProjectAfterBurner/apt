@@ -18,6 +18,25 @@ MD5sum: 737cddf737663f494c416b0a9825f2bc
 Description: 
   ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 
+Package: balena-etcher-electron
+Version: 1.7.9+5945ab1f
+License: Apache-2.0
+Vendor: Balena Inc. <hello@etcher.io>
+Architecture: arm64
+Maintainer: Balena Inc. <hello@etcher.io>
+Installed-Size: 238403
+Depends: gconf2, gconf-service, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgconf-2-4, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, liblzma5, libnotify4, libnspr4, libnss3, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, libxtst6, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
+Homepage: https://github.com/balena-io/etcher
+Priority: optional
+Section: utils
+Filename: pool/main/b/balena-etcher-electron/balena-etcher-electron_1.7.9+5945ab1f_arm64.deb
+Size: 92163156
+SHA256: 07124db5303f03ca1fb565b78b2fa62ec59e320489088367ed6c2d5d571b27c4
+SHA1: 2acd3869b297ffd354d074f97df4e79fc677f54b
+MD5sum: 97e7c58c60369466d85f5b1bd7ff706b
+Description: balenaEtcher is a powerful OS image flasher built with web technologies to ensure flashing an SDCard or USB drive is a pleasant and safe experience. It protects you from accidentally writing to your hard-drives, ensures every byte of data was written correctly and much more.
+  Flash OS images to SD cards and USB drives, safely and easily.
+
 Package: box64
 Installed-Size: 10160
 Maintainer: root@box64-builder
@@ -93,6 +112,42 @@ Description: Simple frontend for the libretro library
  .
  It provides four built-in graphical user interface flavors: RGUI, XMB, Ozone
  and GLUI.
+
+Package: rpi-imager
+Version: 1.7.2
+Architecture: arm64
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 1004
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.10.0), libqt5widgets5 (>= 5.0.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), qml-module-qtquick2, qml-module-qtquick-controls2, qml-module-qtquick-layouts, qml-module-qtquick-templates2, qml-module-qtquick-window2, qml-module-qtgraphicaleffects, dosfstools, fdisk
+Recommends: udisks2
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: admin
+Filename: pool/main/r/rpi-imager/rpi-imager_1.7.2_arm64.deb
+Size: 349320
+SHA256: 54afc3ed4edc0325d3c34ce5eb8a76ed65543f8bf767f674636cfd9d4196b3b0
+SHA1: edf10e700fb937be76f7e04031def53652d92f57
+MD5sum: ed719cd87c1aea97e4c4779b5fe6d1f8
+Description: Raspberry Pi imaging utility
+ Graphical user-interface to write disk images and format SD cards.
+
+Package: rpi-imager-dbgsym
+Source: rpi-imager
+Version: 1.7.2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Floris Bos <bos@je-eigen-domein.nl>
+Installed-Size: 2793
+Depends: rpi-imager (= 1.7.2)
+Priority: optional
+Section: debug
+Filename: pool/main/r/rpi-imager/rpi-imager-dbgsym_1.7.2_arm64.deb
+Size: 2740980
+SHA256: 6d430be95fd75f93f9e6ebab2a45e38ae9d39764e0654882ade6891988abf3ec
+SHA1: 82006db4e2646aac9ca22530579d91f351c39fe5
+MD5sum: 6477daa60b38df04e9d6d9f35a1d1315
+Description: debug symbols for rpi-imager
+Build-Ids: 3a9ee0dd90fae6ba60157b8f126eebbabbb66f6c
 
 Package: webcord
 Version: 3.1.3
