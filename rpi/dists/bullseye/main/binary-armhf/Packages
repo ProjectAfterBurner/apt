@@ -77,21 +77,21 @@ Description: Simple frontend for the libretro library
  and GLUI.
 
 Package: webcord
-Version: 3.1.3
+Version: 3.1.4
 Architecture: armhf
 Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 160006
+Installed-Size: 162340
 Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
 Homepage: https://github.com/SpacingBat3/WebCord#readme
 Priority: optional
 Section: web
-Filename: pool/main/w/webcord/webcord_3.1.3_armhf.deb
-Size: 67828696
-SHA256: 4235787cff25da416e314115de7c3ec3d638de297509781f9b0f64f23dd8c0e1
-SHA1: ecf795da9341ebf3a66e8eced081761b1e8d246c
-MD5sum: 027cd58141520f2bc6b1d245d46932f3
+Filename: pool/main/w/webcord/webcord_3.1.4_armhf.deb
+Size: 68298184
+SHA256: 7fee5e94c9e29832fc40d39690a002ab2490eb096a83f2e9eb80b56c5c2f3fd4
+SHA1: 1e41546e02a4c84d603d50b9fa4478d064f68e8c
+MD5sum: 52f2f096d2d09f68b10c3d700ccc55fb
 Description: A Discord and Fosscord client made with the Electron API.
  A Discord and Fosscord client made with the Electron API.
 
