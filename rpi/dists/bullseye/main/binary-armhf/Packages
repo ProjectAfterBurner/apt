@@ -17,21 +17,6 @@ Description: Linux Userspace x86 Emulator with a twist.
  on non-x86 Linux, like ARM
  (host system needs to be 32bit little-endian).
 
-Package: minecraft-pi-reborn-client
-Version: 2.3.9-1
-Architecture: armhf
-Maintainer: Nooz <zhengm58@gmail.com>
-Priority: optional
-Section: games
-Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.9-1_armhf.deb
-Size: 6104652
-SHA256: c69cbb987477fe9d951905c32c269a652605eef01bdf9423b3d19f74f84babbd
-SHA1: a660507cd62eb610dddfbab9220b353a595f8f92
-MD5sum: ad5c11c67eda2db6650cdbc00c11bee2
-Description: Community mod of MCPI-Reborn
-Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
-Depends: libc6, libstdc++6, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
-
 Package: planet-launcher
 Version: 1.2.0
 Architecture: all
@@ -75,23 +60,4 @@ Description: Simple frontend for the libretro library
  .
  It provides four built-in graphical user interface flavors: RGUI, XMB, Ozone
  and GLUI.
-
-Package: webcord
-Version: 3.1.4
-Architecture: armhf
-Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
-Recommends: pulseaudio | libasound2
-Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 162340
-Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
-Homepage: https://github.com/SpacingBat3/WebCord#readme
-Priority: optional
-Section: web
-Filename: pool/main/w/webcord/webcord_3.1.4_armhf.deb
-Size: 68298184
-SHA256: 7fee5e94c9e29832fc40d39690a002ab2490eb096a83f2e9eb80b56c5c2f3fd4
-SHA1: 1e41546e02a4c84d603d50b9fa4478d064f68e8c
-MD5sum: 52f2f096d2d09f68b10c3d700ccc55fb
-Description: A Discord and Fosscord client made with the Electron API.
- A Discord and Fosscord client made with the Electron API.
 
