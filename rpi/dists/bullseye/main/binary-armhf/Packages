@@ -18,16 +18,16 @@ Description: Linux Userspace x86 Emulator with a twist.
  (host system needs to be 32bit little-endian).
 
 Package: minecraft-pi-reborn-client
-Version: 2.3.5-1
+Version: 2.3.9-1
 Architecture: armhf
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.5-1_armhf.deb
-Size: 6081816
-SHA256: 24815b4481b74ff8c121b5a58638c2cb0395f9bb52140065b7bc63ece4c8273f
-SHA1: 61230883bc9f56ba3f0fcf4d9bee8a55411c196a
-MD5sum: b5fe6e4897dc6d683f4177124aef10a1
+Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.9-1_armhf.deb
+Size: 6104652
+SHA256: c69cbb987477fe9d951905c32c269a652605eef01bdf9423b3d19f74f84babbd
+SHA1: a660507cd62eb610dddfbab9220b353a595f8f92
+MD5sum: ad5c11c67eda2db6650cdbc00c11bee2
 Description: Community mod of MCPI-Reborn
 Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Depends: libc6, libstdc++6, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
