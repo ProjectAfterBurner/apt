@@ -84,6 +84,26 @@ Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Architecture: arm64
 Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, patchelf
 
+Package: peazip
+Maintainer: Ryan Fortner <ryankfortner@gmail.com>
+Summary: Free file archive utility
+Name: peazip 
+Priority: optional
+Section: utils
+Filename: pool/main/p/peazip/peazip_8.6.0~fp_arm64.deb
+Size: 5653400
+SHA256: 25ae01ec186756b4ee870988a340baa36a6845702b00b1e226f15c2fd3194550
+SHA1: 79059016e9b25b92dfb2f6aea45ffc3207f275bd
+MD5sum: 70ab23cfe41acfa9633d00d07882ed4b
+Description: PeaZip is a free file archiver utility and rar extractor for Linux, macOS, and Windows, which works with 200+ archive types and variants (7z, ace, arc, bz2, cab, gz, iso, paq, pea, rar, tar, wim, zip, zipx...), handles spanned archives (001, r01, z01...), supports multiple archive encryption standards, file hashing, exports tasks as console scripts.
+Version: 8.6.0~fp
+License: gpl
+Architecture: arm64
+Provides: peazip
+Depends: libqt5pas1, p7zip-full, zstd, brotli, libbrotli1, libucl1, libzstd1, libucl1, upx-ucl
+Recommends: 
+Conflicts: 
+
 Package: planet-launcher
 Version: 1.2.0
 Architecture: all
