@@ -90,17 +90,17 @@ Summary: Free file archive utility
 Name: peazip 
 Priority: optional
 Section: utils
-Filename: pool/main/p/peazip/peazip_8.6.0~fp_arm64.deb
-Size: 5653400
-SHA256: 25ae01ec186756b4ee870988a340baa36a6845702b00b1e226f15c2fd3194550
-SHA1: 79059016e9b25b92dfb2f6aea45ffc3207f275bd
-MD5sum: 70ab23cfe41acfa9633d00d07882ed4b
+Filename: pool/main/p/peazip/peazip_8.6.0~fp1_arm64.deb
+Size: 5616380
+SHA256: 26eff85fe7dcf5d5132cc5ed5fdf4957e6d3690e4c212849c4fb746d16694cde
+SHA1: 0011002c4def4a94895aa2462b440eb620883060
+MD5sum: 6a0ca7f21a373238b30882cce7c68ac5
 Description: PeaZip is a free file archiver utility and rar extractor for Linux, macOS, and Windows, which works with 200+ archive types and variants (7z, ace, arc, bz2, cab, gz, iso, paq, pea, rar, tar, wim, zip, zipx...), handles spanned archives (001, r01, z01...), supports multiple archive encryption standards, file hashing, exports tasks as console scripts.
-Version: 8.6.0~fp
+Version: 8.6.0~fp1
 License: gpl
 Architecture: arm64
 Provides: peazip
-Depends: libqt5pas1, p7zip-full, zstd, brotli, libbrotli1, libucl1, libzstd1, libucl1, upx-ucl
+Depends: libzstd1, libarchive13, libqt5pas1, p7zip-full, zstd, brotli, libbrotli1, libucl1, libzstd1, libucl1, upx-ucl
 Recommends: 
 Conflicts: 
 
