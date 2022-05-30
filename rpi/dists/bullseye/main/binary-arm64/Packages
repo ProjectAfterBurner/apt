@@ -161,21 +161,21 @@ Description: debug symbols for rpi-imager
 Build-Ids: 3a9ee0dd90fae6ba60157b8f126eebbabbb66f6c
 
 Package: webcord
-Version: 3.1.4
+Version: 3.2.0
 Architecture: arm64
 Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 235070
+Installed-Size: 224176
 Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
 Homepage: https://github.com/SpacingBat3/WebCord#readme
 Priority: optional
 Section: web
-Filename: pool/main/w/webcord/webcord_3.1.4_arm64.deb
-Size: 74249896
-SHA256: 357b4372073bf3f1fcab12fabbc8fc0014322cc75ab92e9ad6364d914496c223
-SHA1: 8adffea8b598a7ed700d454bd4f1b62bf3887ea8
-MD5sum: f274f1e1b97d0ae3b85377c6ff17259a
+Filename: pool/main/w/webcord/webcord_3.2.0_arm64.deb
+Size: 69553048
+SHA256: 0d1d69b066484c0c54b3c6088ebe7bea368cbb64b56470ff737566fa93503287
+SHA1: 6ea829a401ce44bce8bc00f46b9d8b7c825a583c
+MD5sum: 86fc1f6101056907f871964fe8c34b15
 Description: A Discord and Fosscord client made with the Electron API.
  A Discord and Fosscord client made with the Electron API.
 
