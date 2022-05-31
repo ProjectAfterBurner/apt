@@ -55,16 +55,16 @@ Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86
  Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
 
 Package: minecraft-pi-reborn-client
-Version: 2.3.10
+Version: 2.3.11
 Architecture: arm64
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.10_arm64.deb
-Size: 7512392
-SHA256: caff302d0f4b7b7383eb4dfc9387329a6e3fa62e23de2e9dd26b4ec61bf58e3a
-SHA1: d9b40cb4068d2acc4cb763ab78cbd68afb74d9aa
-MD5sum: 8373c82227abbe32371e182e3f5121cc
+Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.11_arm64.deb
+Size: 7516964
+SHA256: 8cabd3c51f3bed9a8cf41b97d1c15cac6d02575c2ad21359ef45f420a66a4384
+SHA1: b74b328d04cc29b959ad91be01529104a6c8b26c
+MD5sum: d0741876a17c1c42fa390dfaa405b00d
 Description: Community mod of MCPI-Reborn
 Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
