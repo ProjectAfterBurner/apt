@@ -70,15 +70,15 @@ Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
 
 Package: minecraft-pi-reborn-server
-Version: 2.3.11
+Version: 2.3.12
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-server/minecraft-pi-reborn-server_2.3.11_arm64.deb
-Size: 2599080
-SHA256: cb77b8539c13705e2677d637718659e8215661de4b439aba245ef2d30b86f053
-SHA1: 7d149c74bf76423f7ae9138f16c1a6a85223deb4
-MD5sum: 6600795b7cdd5f8347787a41ad3c4fbe
+Filename: pool/main/m/minecraft-pi-reborn-server/minecraft-pi-reborn-server_2.3.12_arm64.deb
+Size: 2598812
+SHA256: c6622245031fbef2d44775feed4f2c06a7420b4356bd3f952189fe1804c53de7
+SHA1: 0f2d511db2204ddecc8abddb9929677119348990
+MD5sum: ece392af2fc9e5b9f91a249256580994
 Description: Modded server for Minecraft Pi Edition
 Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Architecture: arm64
