@@ -1,7 +1,7 @@
 Origin: project-afterburner
 Label: Project Afterburner Packages
 Codename: bullseye
-Date: Mon, 06 Jun 2022 01:00:04 UTC
+Date: Mon, 06 Jun 2022 01:00:07 UTC
 Architectures: armhf arm64
 Components: main
 Description: Project Afterburner Packages
@@ -9,20 +9,20 @@ MD5Sum:
  6692645b7fb8e2425510425eb531b63f 1498 main/binary-armhf/Packages
  cdc462a559ac8768f31de656a7c4188c 852 main/binary-armhf/Packages.gz
  dff9e5a3c24636adfed230a2cca40996 142 main/binary-armhf/Release
- 67b5195a1efbcc669bccdb1dd45b2a81 8471 main/binary-arm64/Packages
- b9d302d89e61684eccfc58d77652dfa2 3607 main/binary-arm64/Packages.gz
+ e2c78361887f6b440d449151c194b292 8471 main/binary-arm64/Packages
+ 27d7e6e711b82776773db10ad1221bba 3606 main/binary-arm64/Packages.gz
  26fec446d62629d2b64655097e49eb97 142 main/binary-arm64/Release
 SHA1:
  2a8c1db41fa4ad3fe1d080484cba64b834e5f071 1498 main/binary-armhf/Packages
  2f01e76b237d72fda32f0cb258daae4d81b26c73 852 main/binary-armhf/Packages.gz
  bf8618b224500f254b34a6b287bc8f8c1600eace 142 main/binary-armhf/Release
- 63acf4d3f51a6ab44d320e34b098fee3625350f3 8471 main/binary-arm64/Packages
- 33f08edcf1d1bf70f29e66519b96cf1d0a22a390 3607 main/binary-arm64/Packages.gz
+ 18b2989e5b1c602f766538cb139476460d8f0352 8471 main/binary-arm64/Packages
+ c841456b3e6f5dc375aedeb5b46eeb56c687f708 3606 main/binary-arm64/Packages.gz
  d00a754a60242467e5d8f684352def2f4eb137b7 142 main/binary-arm64/Release
 SHA256:
  30383e6bda79d23eba20159a739982254692a8c850c93d04130f5d908dad4729 1498 main/binary-armhf/Packages
  ad270a4f100854d0f4e49862b99ee077eedc09872f05531980c7056d7e1b405b 852 main/binary-armhf/Packages.gz
  f05e07c97fbd50956f44b192aa3919ba63648bb58ef791df932c9af72308a390 142 main/binary-armhf/Release
- b01c59e080f0c00cf58c7d311576eff793c76a181dcb5fcf96d5ce45a5c29345 8471 main/binary-arm64/Packages
- 51e1b17d865e1e51a8668e5487820d348ff11c93675a992f7f0e054e82e5641f 3607 main/binary-arm64/Packages.gz
+ 2f57a5111755bae321eac31eabd5b6f8e999e2c78f6aacd1def8c45d69aa5499 8471 main/binary-arm64/Packages
+ 0b2398349e79df1d9f6160fc6ec52f26a5a07be26e6fe1cc890459cb70f5f134 3606 main/binary-arm64/Packages.gz
  d0c9fa12c8dace9d2e678320e19d1002ce4b416732ed2cb32abbece446aec898 142 main/binary-arm64/Release
