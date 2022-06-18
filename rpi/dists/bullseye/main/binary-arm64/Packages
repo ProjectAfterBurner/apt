@@ -54,6 +54,26 @@ MD5sum: 44f96d428b38515a2b6b19d94b545106
 Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
  Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
 
+Package: ferdium
+Version: 6.0.0-nightly.66
+License: Apache-2.0
+Vendor: Ferdium Contributors <hello@ferdium.org>
+Architecture: arm64
+Maintainer: Ferdium Contributors <hello@ferdium.org>
+Installed-Size: 344242
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Homepage: https://github.com/ferdium/ferdium-app
+Priority: optional
+Section: default
+Filename: pool/main/f/ferdium/ferdium_6.0.0-nightly.66_arm64.deb
+Size: 77366372
+SHA256: 7c89c2219d252b71b846f409d3f014d3e26ade1b4930b7e48a7f95dc7949063b
+SHA1: 092efd822a3788d023e25599639b4e9dc3de5341
+MD5sum: 6d5a3027a5ea42dfd0a0228115e72bbc
+Description: Messaging app for WhatsApp, Slack, Telegram, Gmail, Hangouts and many many more.
+  Ferdium is your messaging app / former heir to the throne of Austria-Hungary and combines chat & messaging services into one application. Ferdium currently supports Slack, WhatsApp, Gmail, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more. You can download Ferdium for free for Mac, Windows, and Linux. For enabling webcam access you need to connect “camera” plug to snap, and for microphone with PulseAudio - “audio-record” plug. This can be done in Snap GUI or via command: `snap connect ferdium:camera; snap connect ferdium:audio-record`.
+
 Package: minecraft-pi-reborn-client
 Version: 2.3.13
 Architecture: arm64
