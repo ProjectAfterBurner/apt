@@ -1,20 +1,20 @@
 Package: armcord
-Version: 3.0.7
+Version: 3.0.8
 License: OSL-3.0
-Vendor: smartfrigde@gmail.com
+Vendor: smartfridge@vivaldi.net
 Architecture: arm64
-Maintainer: smartfrigde@gmail.com
-Installed-Size: 205906
+Maintainer: smartfridge@vivaldi.net
+Installed-Size: 226404
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
 Homepage: https://github.com/armcord/armcord#readme
 Priority: optional
 Section: default
-Filename: pool/main/a/armcord/armcord_3.0.7_arm64.deb
-Size: 56608354
-SHA256: d85664184f0c2b3c799cc8f7d22a2689d8371af198449b517c1c19d2c8e02785
-SHA1: 98984338bfcc725ce8c8d0e176a80c7c0f0bc52b
-MD5sum: c124041cbaf7083237c7f93ebb7b6e94
+Filename: pool/main/a/armcord/armcord_3.0.8_arm64.deb
+Size: 60225792
+SHA256: 3ee43fce1baff8c039f42c7a432a409a0e50eb35707ca83ed7129b6b36f75ccd
+SHA1: 0e9a69b7f11bdc962184ea92e65ee3c166cb3600
+MD5sum: af8e374a946ad9f4a21474f658289dcb
 Description: 
   ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 
@@ -75,30 +75,30 @@ Description: Messaging app for WhatsApp, Slack, Telegram, Gmail, Hangouts and ma
   Ferdium is your messaging app / former heir to the throne of Austria-Hungary and combines chat & messaging services into one application. Ferdium currently supports Slack, WhatsApp, Gmail, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more. You can download Ferdium for free for Mac, Windows, and Linux. For enabling webcam access you need to connect “camera” plug to snap, and for microphone with PulseAudio - “audio-record” plug. This can be done in Snap GUI or via command: `snap connect ferdium:camera; snap connect ferdium:audio-record`.
 
 Package: minecraft-pi-reborn-client
-Version: 2.3.13
+Version: 2.4.3-3
 Architecture: arm64
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.3.13_arm64.deb
-Size: 7518892
-SHA256: bf4340d21b677f6e7e8534b64d115a2b05b33a008329fa2e63f8decb2a6c8102
-SHA1: 0f5500e34454dd3a6da98f5cc31d61a8f1c964e6
-MD5sum: 5429db5a262504f236dc7cc207df1dbb
+Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.4.3-3_arm64.deb
+Size: 9020364
+SHA256: 362dde424e9405445d13fc66ea6b0f2817d698fce0ce97c2a67376dbb040afb1
+SHA1: 8bb60d555932784fcacd295c1c6759acff805e45
+MD5sum: 77cb095ea6b5a350040ee58cee8e8042
 Description: Community mod of MCPI-Reborn
 Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
 
 Package: minecraft-pi-reborn-server
-Version: 2.3.13
+Version: 2.4.3-3
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-server/minecraft-pi-reborn-server_2.3.13_arm64.deb
-Size: 2598644
-SHA256: 1474fa5fc2d74e530cb995bedc8553f0cd2bff9fc786d7f97edc95c5bf78f5bd
-SHA1: c042db2b64969b5a854ba9cf5aac006035ee24f9
-MD5sum: 2fc06f9be18a32dfcb0251d32a076f93
+Filename: pool/main/m/minecraft-pi-reborn-server/minecraft-pi-reborn-server_2.4.3-3_arm64.deb
+Size: 4351720
+SHA256: e4f54a6526f00ccf7bc6cfa20a08f7617702beaabe9b87a0623c8a4c9726a4b9
+SHA1: 885567f39bdb3b542609963c8ebfe43d105bb2f0
+MD5sum: 90e2c3c103e9ded75c1f62baf86eb47e
 Description: Modded server for Minecraft Pi Edition
 Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
 Architecture: arm64
@@ -125,21 +125,21 @@ Recommends:
 Conflicts: 
 
 Package: planet-launcher
-Version: 1.2.0
+Version: 1.2.2
 Architecture: all
 Maintainer: mcpiscript <mcpiscript@gmail.com>
-Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia, gcc
+Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia
 Replaces: mcpil, mcpil-r, gmcpil, jmcpil
 Recommends: python3-pyqtdarkmode, python3-minecraftpi
 Provides: pi-nbt, mcpiedit, mcpit, editpi
 Homepage: https://github.com/mcpiscript/Planet
 Priority: optional
 Section: games
-Filename: pool/main/p/planet-launcher/planet-launcher_1.2.0_all.deb
-Size: 71900
-SHA256: 8f6732392a2e01572fd78d1bd00c4c531f4f52662ca78e7f8b3a43be4727dfab
-SHA1: b063e7a17ded63d978cfa9b993be044b3c97c549
-MD5sum: df705ce75b12ddc9782ab57f86c94ce6
+Filename: pool/main/p/planet-launcher/planet-launcher_1.2.2_all.deb
+Size: 72588
+SHA256: 9d001a39e24bfc76587392d6fdc2e50c89555fc256076055d2678a6f9c3a3347
+SHA1: 0c23b3a5be628bfcf18010cfeeb22f2fdd7166ca
+MD5sum: 0ac1362926f8833bb593bf2d37f5b2ec
 Description: A better launcher for Minecraft: Pi Edition
  A better launcher.
  This launcher requires you to download an AppImage file from the official Jenkins.
@@ -181,21 +181,21 @@ Description: debug symbols for rpi-imager
 Build-Ids: 3a9ee0dd90fae6ba60157b8f126eebbabbb66f6c
 
 Package: webcord
-Version: 3.5.0
+Version: 3.7.1
 Architecture: arm64
 Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
 Recommends: pulseaudio | libasound2
 Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
-Installed-Size: 224318
+Installed-Size: 244808
 Maintainer: SpacingBat3 <git@spacingbat3.anonaddy.com>
 Homepage: https://github.com/SpacingBat3/WebCord#readme
 Priority: optional
 Section: web
-Filename: pool/main/w/webcord/webcord_3.5.0_arm64.deb
-Size: 69605640
-SHA256: 20dc57aa549978de3b9c245754db4fa50ff612975d22ffad476c09f32fd3734d
-SHA1: fa7605490f68a711ee8ef6ed7d8cdac3e969bedb
-MD5sum: 8bf1bb126e8fbaa0fbfcde2e70bdac86
+Filename: pool/main/w/webcord/webcord_3.7.1_arm64.deb
+Size: 73209844
+SHA256: 0d2a7bc4a7deb3e65ff68bd38bd066c1ead05ada7c8a4ec4ae109e6403408bec
+SHA1: f8150174e3c120ffff374ecb4901e2d1499e4b08
+MD5sum: c24b6c4d8cd90864a1eb6460c06b4ca4
 Description: A Discord and Fosscord client made with the Electron API.
  A Discord and Fosscord client made with the Electron API.
 
