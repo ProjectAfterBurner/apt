@@ -75,19 +75,19 @@ Description: Messaging app for WhatsApp, Slack, Telegram, Gmail, Hangouts and ma
   Ferdium is your messaging app / former heir to the throne of Austria-Hungary and combines chat & messaging services into one application. Ferdium currently supports Slack, WhatsApp, Gmail, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more. You can download Ferdium for free for Mac, Windows, and Linux. For enabling webcam access you need to connect “camera” plug to snap, and for microphone with PulseAudio - “audio-record” plug. This can be done in Snap GUI or via command: `snap connect ferdium:camera; snap connect ferdium:audio-record`.
 
 Package: minecraft-pi-reborn-client
-Version: 2.4.3-3
+Version: 2.4.6
 Architecture: arm64
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.4.3-3_arm64.deb
-Size: 9020364
-SHA256: 362dde424e9405445d13fc66ea6b0f2817d698fce0ce97c2a67376dbb040afb1
-SHA1: 8bb60d555932784fcacd295c1c6759acff805e45
-MD5sum: 77cb095ea6b5a350040ee58cee8e8042
+Filename: pool/main/m/minecraft-pi-reborn-client/minecraft-pi-reborn-client_2.4.6_arm64.deb
+Size: 9469760
+SHA256: a53eaba32804d043fb1890c894d014a456641a0ae034833d7c2d979c39f40515
+SHA1: 8661ea727dd4ec378a9356f750500088a1371a95
+MD5sum: 80dd4d1fa457f1614367bde0dbd8cd2f
 Description: Community mod of MCPI-Reborn
-Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
-Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, patchelf, python3-minecraftpi
+Homepage: https://github.com/NoozSBC/mcpi-reborn-extended/
+Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, python3-minecraftpi
 
 Package: minecraft-pi-reborn-server
 Version: 2.4.3-3
