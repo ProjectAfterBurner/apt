@@ -90,19 +90,19 @@ Homepage: https://github.com/NoozSBC/mcpi-reborn-extended/
 Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, libgles1, libegl1, libglfw3 | libglfw3-wayland, libfreeimage3, libopenal1, python3-minecraftpi
 
 Package: minecraft-pi-reborn-server
-Version: 2.4.3-3
+Version: 2.4.6
 Maintainer: Nooz <zhengm58@gmail.com>
 Priority: optional
 Section: games
-Filename: pool/main/m/minecraft-pi-reborn-server/minecraft-pi-reborn-server_2.4.3-3_arm64.deb
-Size: 4351720
-SHA256: e4f54a6526f00ccf7bc6cfa20a08f7617702beaabe9b87a0623c8a4c9726a4b9
-SHA1: 885567f39bdb3b542609963c8ebfe43d105bb2f0
-MD5sum: 90e2c3c103e9ded75c1f62baf86eb47e
+Filename: pool/main/m/minecraft-pi-reborn-server/minecraft-pi-reborn-server_2.4.6_arm64.deb
+Size: 4773628
+SHA256: 0fb0ef454644855f1faef412b8149a5f2bcc14f80732f4ae06c22a003b699714
+SHA1: 20c2e340b5fb5045c1477e497480a80e108b3c82
+MD5sum: 81e2b38068df3006e4db4ce14875343b
 Description: Modded server for Minecraft Pi Edition
-Homepage: https://github.com/mobilegmYT/mcpi-reborn-extended/
+Homepage: https://github.com/NoozSBC/mcpi-reborn-extended/
 Architecture: arm64
-Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf, patchelf
+Depends: libc6, libstdc++6, libc6:armhf, libstdc++6:armhf
 
 Package: peazip
 Maintainer: Ryan Fortner <ryankfortner@gmail.com>
