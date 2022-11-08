@@ -1,38 +1,36 @@
 Package: box86
-Installed-Size: 9728
-Maintainer: root@rpi-builder
+Installed-Size: 11524
+Maintainer: root@3dd8c6657e81
 Architecture: armhf
-Version: 0.2.7+20220424.d45aa0da-1
+Version: 0.2.7+20221104.b0ac567-1
 Provides: box86
 Conflicts: qemu-user-static
 Priority: extra
 Section: checkinstall
-Filename: pool/main/b/box86/box86_0.2.7+20220424.d45aa0da-1_armhf.deb
-Size: 1820160
-SHA256: d875063d92651883fcb8e3e7e78d12561caaf01aae5dd9ca09d4c7cbc3b3d54d
-SHA1: fd5b20c6302bbb199733db3fdfcd73f2d0ee755a
-MD5sum: 1c96a7ad544f64aabce48d444bc91683
-Description: Linux Userspace x86 Emulator with a twist.
- Box86 lets you run x86 Linux programs (such as games)
- on non-x86 Linux, like ARM
- (host system needs to be 32bit little-endian).
+Filename: pool/main/b/box86/box86_0.2.7+20221104.b0ac567-1_armhf.deb
+Size: 2299204
+SHA256: fa255d6fd70c855cd61865ed94a7685e220105e9d7934fd599695ba0e3cce575
+SHA1: 09375218dcdaad93a308b712f0b0923730c8c572
+MD5sum: 35dde7a52efdd24fff1e453dd32ddfa1
+Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+ Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
 
 Package: planet-launcher
-Version: 1.2.0
+Version: 1.2.2
 Architecture: all
 Maintainer: mcpiscript <mcpiscript@gmail.com>
-Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia, gcc
+Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia
 Replaces: mcpil, mcpil-r, gmcpil, jmcpil
 Recommends: python3-pyqtdarkmode, python3-minecraftpi
 Provides: pi-nbt, mcpiedit, mcpit, editpi
 Homepage: https://github.com/mcpiscript/Planet
 Priority: optional
 Section: games
-Filename: pool/main/p/planet-launcher/planet-launcher_1.2.0_all.deb
-Size: 71900
-SHA256: 8f6732392a2e01572fd78d1bd00c4c531f4f52662ca78e7f8b3a43be4727dfab
-SHA1: b063e7a17ded63d978cfa9b993be044b3c97c549
-MD5sum: df705ce75b12ddc9782ab57f86c94ce6
+Filename: pool/main/p/planet-launcher/planet-launcher_1.2.2_all.deb
+Size: 72588
+SHA256: 9d001a39e24bfc76587392d6fdc2e50c89555fc256076055d2678a6f9c3a3347
+SHA1: 0c23b3a5be628bfcf18010cfeeb22f2fdd7166ca
+MD5sum: 0ac1362926f8833bb593bf2d37f5b2ec
 Description: A better launcher for Minecraft: Pi Edition
  A better launcher.
  This launcher requires you to download an AppImage file from the official Jenkins.
